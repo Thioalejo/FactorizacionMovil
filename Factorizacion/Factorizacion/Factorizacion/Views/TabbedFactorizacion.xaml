@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Factorizacion.Views.TabbedFactorizacion">
+  <!--Pages can be added as references or inline-->
+
+    <ContentPage Title="Factorizacion 4 grado" Padding="5">
+        <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Orientation="Vertical">
+            <Label Text="A"></Label>
+            <Entry Placeholder="ax^4" WidthRequest="110" HeightRequest="20" x:Name="txtA"></Entry>
+            <Label Text="B"></Label>
+            <Entry Placeholder="ax^4" WidthRequest="110" HeightRequest="20" x:Name="txtB"></Entry>
+            <Label Text="C"></Label>
+            <Entry Placeholder="ax^4" WidthRequest="110" HeightRequest="20" x:Name="txtC"></Entry>
+            <Label Text="D"></Label>
+            <Entry Placeholder="ax^4" WidthRequest="110" HeightRequest="20" x:Name="txtD"></Entry>
+            <Label Text="E"></Label>
+            <Entry Placeholder="ax^4" WidthRequest="110" HeightRequest="20" x:Name="txtE"></Entry>
+
+            <Button Text="Calcular" Clicked="Button_Clicked"></Button>
+        
+            <Label Text="Funcion..." x:Name="lblFuncion" ></Label>
+
+            <Label Text="_______" x:Name="lblRaiz1"></Label>
+            <Label Text="_______" x:Name="lblRaiz2"></Label>
+            <Label Text="_______" x:Name="lblRaiz3"></Label>
+            <Label Text="_______" x:Name="lblRaiz4"></Label>
+
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Factorizacion 3 grado" >
+        <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Orientation="Vertical">
+            <Label Text="A"></Label>
+            <Entry Placeholder="a*x^3" WidthRequest="110" HeightRequest="20" x:Name="txtA_3"></Entry>
+            <Label Text="B"></Label>
+            <Entry Placeholder="b*x^2" WidthRequest="110" HeightRequest="20" x:Name="txtB_3"></Entry>
+            <Label Text="C"></Label>
+            <Entry Placeholder="c*x" WidthRequest="110" HeightRequest="20" x:Name="txtC_3"></Entry>
+            <Label Text="D"></Label>
+            <Entry Placeholder="d" WidthRequest="110" HeightRequest="20" x:Name="txtD_3"></Entry>
+            
+            
+            <Button Text="Calcular" Clicked="Button_Clicked_1"></Button>
+
+            <Label Text="Funcion..." x:Name="lblFuncion_3" ></Label>
+
+            <Label Text="_______" x:Name="lblRaiz1_3"></Label>
+            <Label Text="_______" x:Name="lblRaiz2_3"></Label>
+            <Label Text="_______" x:Name="lblRaiz3_3"></Label>
+
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Factorización formula general" >
+        <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Orientation="Vertical">
+            <Label Text="A"></Label>
+            <Entry Placeholder="a*x^2" WidthRequest="110" HeightRequest="20" x:Name="txtA_2"></Entry>
+            <Label Text="B"></Label>
+            <Entry Placeholder="b*x" WidthRequest="110" HeightRequest="20" x:Name="txtB_2"></Entry>
+            <Label Text="C"></Label>
+            <Entry Placeholder="c" WidthRequest="110" HeightRequest="20" x:Name="txtC_2"></Entry>
+            
+
+            <Button Text="Calcular" Clicked="Button_Clicked_2"></Button>
+
+            <Label Text="Funcion..." x:Name="lblFuncion_2" ></Label>
+
+            <Label Text="_______" x:Name="lblRaiz1_2"></Label>
+            <Label Text="_______" x:Name="lblRaiz2_2"></Label>
+
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="Factorizacion.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Factorizacion.UWP"
+    RequestedTheme="Light">
+
+</Application>
+
